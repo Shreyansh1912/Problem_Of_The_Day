@@ -28,6 +28,7 @@ class Solution {
      
      for(int i=0; i<=s.length()-2; i++){
             String a = s.substring(i,i+2);
+
             for(String b:arr){
                 if(a.equals(b)){
                     s=s.replace(a,"");
