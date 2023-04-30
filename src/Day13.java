@@ -62,6 +62,7 @@ class Solution {
             c+=(n&1);
             n>>=1;
         }
+
         return c>1?false:true;
     }
 }
